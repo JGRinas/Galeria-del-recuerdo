@@ -1,0 +1,92 @@
+:root{
+    --background-color: rgba(51, 51, 51, 0.753);
+}
+
+body{
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+
+    background-image:url('../../assets/register-login2.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.nav a{
+    margin: 10px;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav a:hover{
+    color: aqua;
+}
+
+.form-title{
+    text-align: center;
+
+    font-size: 30px;
+}
+
+.header-form{
+    margin: auto;
+    margin-top: 50px;
+    padding:30px;
+    text-align: center;
+
+    width: 400px;
+    height: 620px;
+    border: 1px solid var(--background-color);
+    border-radius: 10%;
+    box-shadow: 10px 10px 30px #333;
+
+    background: var(--background-color);
+}
+
+.form-control{
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    background: var(--background-color);
+    font-size: 1rem;
+    color: inherit;
+}
+
+.link{
+    color: lightblue;
+    text-decoration: none;
+
+}
+
+.link:hover{
+    font-size: 18px;
+}
+
+.btn-register input{
+    color: inherit;
+    width:110px;
+    height: 40px;
+    border-radius: 10%;
+    background: var(--background-color);
+    cursor:pointer;
+}
+
+.btn-register input:hover{
+    color: aqua;
+}
+
+@media(max-width: 400px){
+    .header-form{
+        background: blue;
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../normalize.css">
+        <!--fuente-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Redressed&display=swap" rel="stylesheet">
+        <!--font-family: 'Raleway', sans-serif;-->
+    <title>Inicio de Sesión</title>
+</head>
+<body>
+    <header>
+        <div class="header container">
+            
+            <div>
+                <nav class="nav">
+                    <a href="../../index/index.html">Inicio</a>
+                </nav>
+            </div>
+
+             <form class="header-form" action="">
+                <h1 class="form-title">Inicio de Sesión</h1>
+
+                <div>
+                    <input class="form-control" type="email" id="mail" name="mail" placeholder="Correo" required>
+                </div>
+
+                <div>
+                    <input class="form-control" type="password" id="pass" name="pass" placeholder="Contraseña" required>
+                </div>
+                
+                <div class="sesion-automatic">
+                    <input type="checkbox" id="check">
+                    <label for="" id="check">Guardar contraseña</label>
+                </div>
+
+                <div class="sesion-automatic">
+                    <input type="checkbox" id="check">
+                    <label for="" id="check">Iniciar sesión automáticamente</label>
+                </div>
+
+                <div class="btn-login">
+                    <input type="submit" value="Iniciar Sesión">
+                </div>
+
+                <div>
+                    <p>¿No tienes una cuenta?<a href="../register/register.html" class="link"> Regístrate</a></p>
+                </div>
+             </form>
+        </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../normalize.css">
+        <!--fuente-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Redressed&display=swap" rel="stylesheet">
+        <!--font-family: 'Raleway', sans-serif;-->
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <div class="header container">
+             
+             <div>
+                 <nav class="nav">
+                     <a href="../../index/index.html">Inicio</a>
+                 </nav>
+             </div>
+
+             <form class="header-form" action="">
+                <h1 class="form-title">Registro</h1>
+                <div>
+                    <input class="form-control" type="text" id="user" name="user" placeholder="Usuario" required>
+                </div>
+
+                <div>
+                    <input class="form-control" type="email" id="mail" name="mail" placeholder="Correo" required>
+
+                    <input class="form-control" type="email" id="mail-confirm" name="mail-confirm" placeholder="Confirmar correo" required>
+                </div>
+
+                <div>
+                    <input class="form-control" type="password" id="pass" name="pass" placeholder="Contraseña" required>
+                    <input class="form-control" type="password" id="pass-confirm" name="pass-confirm" placeholder="Confirmar contraseña" required>
+                </div>
+
+                <div>
+                    <label for="" id="date-hb">Fecha de nacimiento</label>
+                    <input class="form-control" type="date" id="date-hb" name="date-hb" required>
+                </div>
+                
+                <div>
+                    <p> <input type="checkbox" id="check"> Estoy de acuerdo con los <a href="../terms-conditions.html" class="link">Terminos y Condiciones de Uso</a> </p>
+                </div>
+
+                <div class="btn-register">
+                    <input type="submit" value="Registrarse">
+                </div>
+
+                <div>
+                    <p>¿Ya tienes una cuenta?<a href="../login/login.html" class="link"> Inicia Sesión</a></p>
+                </div>
+             </form>
+        </div>
+    </header>
+</body>
+</html>
